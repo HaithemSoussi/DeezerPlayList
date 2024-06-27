@@ -1,0 +1,11 @@
+.playlist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .playlist-card {
+    cursor: pointer;
+    width: calc(33.333% - 16px);
+  }
+  

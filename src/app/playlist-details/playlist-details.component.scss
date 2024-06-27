@@ -1,0 +1,16 @@
+.playlist-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .tracks-list {
+    height: 400px;
+    overflow-y: auto;
+  }
+  
+  .track-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  

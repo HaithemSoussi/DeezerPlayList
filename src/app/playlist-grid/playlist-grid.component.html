@@ -1,0 +1,7 @@
+<div class="playlist-grid">
+    <div *ngFor="let playlist of playlists" class="playlist-card" (click)="openPlaylist(playlist.id)">
+      <img [src]="playlist.picture" alt="{{playlist.title}}">
+      <h3>{{playlist.title}}</h3>
+    </div>
+  </div>
+  
